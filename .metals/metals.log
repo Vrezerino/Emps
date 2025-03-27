@@ -1,0 +1,490 @@
+2025.03.27 15:17:48 INFO  Started: Metals version 1.5.2 in folders 'C:\ohjelmointi\Scala\scalaapi' for client Visual Studio Code 1.98.2.
+2025.03.27 15:18:09 INFO  running 'C:\Program Files\Java\jdk-19\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Vres\AppData\Local\Temp\metals4382282070065920988\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.03.27 15:18:09 ERROR [info] [launcher] getting org.scala-sbt sbt 1.10.9  (this may take some time)...
+2025.03.27 15:18:16 INFO  [info] welcome to sbt 1.10.9 (Oracle Corporation Java 19.0.2)
+2025.03.27 15:18:19 INFO  [info] loading settings for project scalaapi-build-build-build from metals.sbt...
+2025.03.27 15:18:19 INFO  [info] loading project definition from C:\ohjelmointi\Scala\scalaapi\project\project\project
+2025.03.27 15:18:23 INFO  [info] loading settings for project scalaapi-build-build from metals.sbt...
+2025.03.27 15:18:23 INFO  [info] loading project definition from C:\ohjelmointi\Scala\scalaapi\project\project
+2025.03.27 15:18:27 INFO  [success] Generated .bloop\scalaapi-build-build.json
+2025.03.27 15:18:27 INFO  [success] Total time: 4 s, completed 27 Mar 2025, 15.18.27
+2025.03.27 15:18:28 INFO  [info] loading settings for project scalaapi-build from metals.sbt, plugins.sbt...
+2025.03.27 15:18:28 INFO  [info] loading project definition from C:\ohjelmointi\Scala\scalaapi\project
+2025.03.27 15:18:37 INFO  [success] Generated .bloop\scalaapi-build.json
+2025.03.27 15:18:37 INFO  [success] Total time: 9 s, completed 27 Mar 2025, 15.18.37
+2025.03.27 15:18:39 INFO  [info] loading settings for project root from build.sbt...
+2025.03.27 15:18:39 INFO  [info]   __              __
+2025.03.27 15:18:39 INFO  [info]   \ \     ____   / /____ _ __  __
+2025.03.27 15:18:39 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2025.03.27 15:18:39 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2025.03.27 15:18:39 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2025.03.27 15:18:39 INFO  [info]       /_/               /____/
+2025.03.27 15:18:39 INFO  [info] 
+2025.03.27 15:18:39 INFO  [info] Version 3.0.7 running Java 19.0.2
+2025.03.27 15:18:39 INFO  [info] 
+2025.03.27 15:18:39 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2025.03.27 15:18:39 INFO  [info] https://www.playframework.com/sponsors
+2025.03.27 15:18:39 INFO  [info] 
+2025.03.27 15:18:39 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025.03.27 15:18:39 INFO  [info]   Java version is 19. Play supports only Java 11, 17 and 21.
+2025.03.27 15:18:39 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025.03.27 15:18:39 INFO  [info] 
+2025.03.27 15:18:59 INFO  [success] Generated .bloop\root.json
+2025.03.27 15:18:59 INFO  [success] Generated .bloop\root-test.json
+2025.03.27 15:18:59 INFO  [success] Total time: 20 s, completed 27 Mar 2025, 15.18.59
+2025.03.27 15:19:00 INFO  time: ran 'sbt bloopInstall' in 50s
+2025.03.27 15:19:00 INFO  Attempting to connect to the build server...
+2025.03.27 15:19:00 INFO  No running Bloop server found, starting one.
+2025.03.27 15:19:08 INFO  Starting compilation server
+2025.03.27 15:19:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 15:19:12 INFO  Attempting to connect to the build server...
+2025.03.27 15:19:12 INFO  Found a Bloop server running
+2025.03.27 15:19:12 INFO  Attempting to connect to the build server...
+2025.03.27 15:19:12 INFO  Found a Bloop server running
+2025.03.27 15:19:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 15:19:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 15:19:15 INFO  time: Connected to build server in 15s
+2025.03.27 15:19:15 INFO  Connected to Build server: Bloop v2.0.9
+2025.03.27 15:19:16 INFO  time: Imported build in 0.21s
+2025.03.27 15:19:48 INFO  time: indexed workspace in 32s
+2025.03.27 15:22:26 INFO  Shutting down server
+2025.03.27 15:22:26 INFO  shutting down Metals
+2025.03.27 15:22:26 INFO  Shut down connection with build server.
+2025.03.27 15:22:26 INFO  Shut down connection with build server.
+2025.03.27 15:22:26 INFO  Shut down connection with build server.
+2025.03.27 15:22:26 INFO  Exiting server
+2025.03.27 15:24:09 INFO  Started: Metals version 1.5.2 in folders 'C:\ohjelmointi\Scala\scalaapi' for client Visual Studio Code 1.98.2.
+2025.03.27 15:24:10 INFO  Attempting to connect to the build server...
+2025.03.27 15:24:10 INFO  Found a Bloop server running
+2025.03.27 15:24:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 15:24:10 INFO  Attempting to connect to the build server...
+2025.03.27 15:24:10 INFO  Found a Bloop server running
+2025.03.27 15:24:10 INFO  Attempting to connect to the build server...
+2025.03.27 15:24:10 INFO  Found a Bloop server running
+2025.03.27 15:24:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 15:24:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 15:24:11 INFO  time: Connected to build server in 1.23s
+2025.03.27 15:24:11 INFO  Connected to Build server: Bloop v2.0.9
+2025.03.27 15:24:11 INFO  time: Imported build in 0.13s
+2025.03.27 15:24:34 INFO  time: indexed workspace in 22s
+2025.03.27 15:25:09 INFO  compiling root (7 scala sources and 1 java source)
+2025.03.27 15:25:21 INFO  time: compiled root in 12s
+Mar 27, 2025 3:42:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+Mar 27, 2025 3:43:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 192
+Mar 27, 2025 3:43:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+Mar 27, 2025 3:43:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 195
+2025.03.27 15:43:08 INFO  compiling root (1 scala source)
+2025.03.27 15:43:10 INFO  time: compiled root in 2.13s
+2025.03.27 15:45:14 INFO  compiling root (1 scala source)
+2025.03.27 15:45:16 INFO  time: compiled root in 2.11s
+2025.03.27 15:45:26 INFO  compiling root (3 scala sources)
+2025.03.27 15:45:26 INFO  time: compiled root in 0.38s
+2025.03.27 15:45:26 INFO  compiling root (3 scala sources)
+2025.03.27 15:45:26 INFO  time: compiled root in 0.2s
+2025.03.27 15:45:37 INFO  compiling root (3 scala sources)
+2025.03.27 15:45:39 INFO  time: compiled root in 2.41s
+2025.03.27 15:46:03 INFO  compiling root (3 scala sources and 1 java source)
+2025.03.27 15:46:08 INFO  time: compiled root in 5.31s
+2025.03.27 15:46:53 INFO  compiling root (1 scala source)
+2025.03.27 15:46:54 INFO  time: compiled root in 1.01s
+2025.03.27 15:46:54 INFO  compiling root (1 scala source)
+2025.03.27 15:46:56 INFO  time: compiled root in 1.17s
+2025.03.27 15:51:08 INFO  compiling root (1 scala source)
+2025.03.27 15:51:08 INFO  time: compiled root in 0.88s
+2025.03.27 15:51:25 INFO  compiling root (1 scala source)
+2025.03.27 15:51:26 INFO  time: compiled root in 1.05s
+2025.03.27 15:51:26 INFO  compiling root (1 scala source)
+2025.03.27 15:51:27 INFO  time: compiled root in 1.17s
+2025.03.27 16:06:42 INFO  compiling root (1 scala source)
+2025.03.27 16:06:44 INFO  time: compiled root in 1.42s
+2025.03.27 16:14:03 INFO  compiling root (2 scala sources)
+2025.03.27 16:14:05 INFO  time: compiled root in 1.75s
+2025.03.27 16:14:24 INFO  compiling root (1 scala source)
+2025.03.27 16:14:24 INFO  time: compiled root in 0.95s
+2025.03.27 16:14:24 INFO  compiling root (1 scala source)
+2025.03.27 16:14:26 INFO  time: compiled root in 0.21s
+2025.03.27 16:14:47 INFO  compiling root (4 scala sources)
+2025.03.27 16:14:47 INFO  time: compiled root in 0.59s
+2025.03.27 16:14:47 INFO  compiling root (4 scala sources)
+2025.03.27 16:14:49 INFO  time: compiled root in 0.56s
+2025.03.27 16:15:14 INFO  compiling root (8 scala sources and 1 java source)
+2025.03.27 16:15:14 INFO  time: compiled root in 0.62s
+2025.03.27 16:15:14 INFO  compiling root (8 scala sources and 1 java source)
+2025.03.27 16:15:14 INFO  time: compiled root in 0.34s
+Mar 27, 2025 4:15:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 644
+2025.03.27 16:16:00 INFO  compiling root (8 scala sources and 1 java source)
+2025.03.27 16:16:00 INFO  time: compiled root in 0.41s
+2025.03.27 16:24:38 INFO  compiling root (8 scala sources and 1 java source)
+2025.03.27 16:24:38 INFO  time: compiled root in 0.58s
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.11.0/scala-collection-compat_2.13-2.11.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.11.0/scala-collection-compat_2.13-2.11.0.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.pom
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom
+Downloaded https://repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils-parent/4.12/java-diff-utils-parent-4.12.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloaded https://repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils-parent/4.12/java-diff-utils-parent-4.12.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.1/sourcecode_2.13-0.3.1.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.1/sourcecode_2.13-0.3.1.pom
+2025.03.27 16:42:30 INFO  time: code lens generation in 3.63s
+2025.03.27 16:44:10 INFO  compiling root (8 scala sources and 1 java source)
+2025.03.27 16:44:13 INFO  time: compiled root in 3.71s
+2025.03.27 16:46:51 INFO  time: code lens generation in 1.24s
+Mar 27, 2025 4:46:55 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: java.lang.IllegalArgumentException: Comparison method violates its general contract! (full report at: C:\ohjelmointi\Scala\scalaapi\.metals\.reports\metals-full\2025-03-27\r_compiler-error_(scalaapi-build)_16-46-55-423.md)
+2025.03.27 16:48:14 INFO  compiling root (1 scala source)
+2025.03.27 16:48:14 INFO  time: compiled root in 0.56s
+2025.03.27 16:51:22 INFO  compiling root (1 scala source)
+2025.03.27 16:51:22 INFO  time: compiled root in 0.16s
+2025.03.27 16:52:11 INFO  compiling root (1 scala source)
+2025.03.27 16:52:11 INFO  time: compiled root in 0.18s
+Mar 27, 2025 4:52:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: Range [167, 226) out of bounds for length 216
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: Range [167, 226) out of bounds for length 216
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [167, 226) out of bounds for length 216
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2025.03.27 16:53:27 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Vres\AppData\Local\Temp\metals10904954134493066377\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.03.27 16:53:29 INFO  sbt thinks that server is already booting because of this exception:
+2025.03.27 16:53:29 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-4477301534521912_lock, error 5
+2025.03.27 16:53:29 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2025.03.27 16:53:29 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2025.03.27 16:53:29 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:153)
+2025.03.27 16:53:29 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:79)
+2025.03.27 16:53:29 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:79)
+2025.03.27 16:53:29 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:87)
+2025.03.27 16:53:29 ERROR 	at sbt.xMain$.run(Main.scala:124)
+2025.03.27 16:53:29 ERROR 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+2025.03.27 16:53:29 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+2025.03.27 16:53:29 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2025.03.27 16:53:29 ERROR 	at sbt.xMain.run(Main.scala:48)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2025.03.27 16:53:29 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2025.03.27 16:53:29 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-4477301534521912_lock, error 5
+2025.03.27 16:53:29 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2025.03.27 16:53:29 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2025.03.27 16:53:29 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2025.03.27 16:53:29 ERROR 	... 21 more
+2025.03.27 16:53:29 INFO  time: ran 'sbt bloopInstall' in 1.38s
+2025.03.27 16:53:29 ERROR sbt command failed: C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Vres\AppData\Local\Temp\metals10904954134493066377\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.03.27 16:53:29 INFO  Disconnecting from Bloop session...
+2025.03.27 16:53:29 INFO  Shut down connection with build server.
+2025.03.27 16:53:29 INFO  Shut down connection with build server.
+2025.03.27 16:53:29 INFO  Shut down connection with build server.
+2025.03.27 16:53:29 INFO  Attempting to connect to the build server...
+2025.03.27 16:53:29 INFO  Found a Bloop server running
+2025.03.27 16:53:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 16:53:30 INFO  Attempting to connect to the build server...
+2025.03.27 16:53:30 INFO  Found a Bloop server running
+2025.03.27 16:53:30 INFO  Attempting to connect to the build server...
+2025.03.27 16:53:30 INFO  Found a Bloop server running
+2025.03.27 16:53:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 16:53:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 16:53:30 INFO  time: Connected to build server in 1.37s
+2025.03.27 16:53:30 INFO  Connected to Build server: Bloop v2.0.9
+2025.03.27 16:53:32 INFO  compiling root (1 scala source)
+2025.03.27 16:53:32 INFO  time: compiled root in 0.33s
+2025.03.27 16:53:36 INFO  time: indexed workspace in 6.12s
+2025.03.27 16:53:36 INFO  compiling root (1 scala source)
+2025.03.27 16:53:36 INFO  time: compiled root in 0.34s
+2025.03.27 16:54:39 INFO  compiling root (1 scala source)
+2025.03.27 16:54:39 INFO  time: compiled root in 0.15s
+2025.03.27 16:55:14 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Vres\AppData\Local\Temp\metals10797538439192516572\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.03.27 16:55:15 INFO  sbt thinks that server is already booting because of this exception:
+2025.03.27 16:55:15 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-4477301534521912_lock, error 5
+2025.03.27 16:55:15 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2025.03.27 16:55:15 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2025.03.27 16:55:15 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:153)
+2025.03.27 16:55:15 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:79)
+2025.03.27 16:55:15 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:79)
+2025.03.27 16:55:15 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:87)
+2025.03.27 16:55:15 ERROR 	at sbt.xMain$.run(Main.scala:124)
+2025.03.27 16:55:15 ERROR 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+2025.03.27 16:55:15 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+2025.03.27 16:55:15 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2025.03.27 16:55:15 ERROR 	at sbt.xMain.run(Main.scala:48)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2025.03.27 16:55:15 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2025.03.27 16:55:15 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-4477301534521912_lock, error 5
+2025.03.27 16:55:15 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2025.03.27 16:55:15 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2025.03.27 16:55:15 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2025.03.27 16:55:15 ERROR 	... 21 more
+2025.03.27 16:55:15 INFO  time: ran 'sbt bloopInstall' in 1.37s
+2025.03.27 16:55:15 ERROR sbt command failed: C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Vres\AppData\Local\Temp\metals10797538439192516572\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.03.27 16:55:15 INFO  Disconnecting from Bloop session...
+2025.03.27 16:55:15 INFO  Shut down connection with build server.
+2025.03.27 16:55:15 INFO  Shut down connection with build server.
+2025.03.27 16:55:15 INFO  Shut down connection with build server.
+2025.03.27 16:55:15 INFO  Attempting to connect to the build server...
+2025.03.27 16:55:15 INFO  Found a Bloop server running
+2025.03.27 16:55:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 16:55:16 INFO  Attempting to connect to the build server...
+2025.03.27 16:55:16 INFO  Found a Bloop server running
+2025.03.27 16:55:16 INFO  Attempting to connect to the build server...
+2025.03.27 16:55:16 INFO  Found a Bloop server running
+2025.03.27 16:55:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 16:55:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 16:55:16 INFO  time: Connected to build server in 0.97s
+2025.03.27 16:55:16 INFO  Connected to Build server: Bloop v2.0.9
+2025.03.27 16:55:21 INFO  time: indexed workspace in 4.33s
+2025.03.27 16:55:21 INFO  compiling root (1 scala source)
+2025.03.27 16:55:21 INFO  time: compiled root in 0.25s
+2025.03.27 16:58:24 INFO  compiling root (1 scala source)
+2025.03.27 16:58:24 INFO  time: compiled root in 0.56s
+Mar 27, 2025 4:59:09 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\ohjelmointi\Scala\scalaapi\.metals\.reports\metals-full\2025-03-27\r_empty-definition_(root)_16-59-09-422.md)
+Mar 27, 2025 4:59:11 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: C:\ohjelmointi\Scala\scalaapi\.metals\.reports\metals-full\2025-03-27\r_empty-definition_(root)_16-59-11-238.md)
+2025.03.27 16:59:12 INFO  compiling root (1 scala source)
+2025.03.27 16:59:12 INFO  time: compiled root in 0.87s
+2025.03.27 18:10:36 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Vres\AppData\Local\Temp\metals4045777371372248582\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.03.27 18:10:37 INFO  sbt thinks that server is already booting because of this exception:
+2025.03.27 18:10:37 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-4477301534521912_lock, error 5
+2025.03.27 18:10:37 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2025.03.27 18:10:37 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2025.03.27 18:10:37 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:153)
+2025.03.27 18:10:37 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:79)
+2025.03.27 18:10:37 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:79)
+2025.03.27 18:10:37 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:87)
+2025.03.27 18:10:37 ERROR 	at sbt.xMain$.run(Main.scala:124)
+2025.03.27 18:10:37 ERROR 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+2025.03.27 18:10:37 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+2025.03.27 18:10:37 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2025.03.27 18:10:37 ERROR 	at sbt.xMain.run(Main.scala:48)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2025.03.27 18:10:37 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2025.03.27 18:10:37 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-4477301534521912_lock, error 5
+2025.03.27 18:10:37 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2025.03.27 18:10:37 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2025.03.27 18:10:37 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2025.03.27 18:10:37 ERROR 	... 21 more
+2025.03.27 18:10:37 INFO  time: ran 'sbt bloopInstall' in 1.3s
+2025.03.27 18:10:37 ERROR sbt command failed: C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Vres\AppData\Local\Temp\metals4045777371372248582\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.03.27 18:10:37 INFO  Disconnecting from Bloop session...
+2025.03.27 18:10:37 INFO  Shut down connection with build server.
+2025.03.27 18:10:37 INFO  Shut down connection with build server.
+2025.03.27 18:10:37 INFO  Shut down connection with build server.
+2025.03.27 18:10:37 INFO  Attempting to connect to the build server...
+2025.03.27 18:10:37 INFO  Found a Bloop server running
+2025.03.27 18:10:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 18:10:37 INFO  Attempting to connect to the build server...
+2025.03.27 18:10:37 INFO  Found a Bloop server running
+2025.03.27 18:10:37 INFO  Attempting to connect to the build server...
+2025.03.27 18:10:37 INFO  Found a Bloop server running
+2025.03.27 18:10:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 18:10:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 18:10:38 INFO  time: Connected to build server in 0.94s
+2025.03.27 18:10:38 INFO  Connected to Build server: Bloop v2.0.9
+2025.03.27 18:10:44 INFO  time: indexed workspace in 5.64s
+2025.03.27 18:10:44 INFO  compiling root-test (1 scala source)
+2025.03.27 18:10:46 INFO  time: compiled root-test in 2.22s
+2025.03.27 20:05:22 INFO  Shutting down server
+2025.03.27 20:05:22 INFO  shutting down Metals
+2025.03.27 20:05:22 INFO  Shut down connection with build server.
+2025.03.27 20:05:22 INFO  Shut down connection with build server.
+2025.03.27 20:05:22 INFO  Shut down connection with build server.
+2025.03.27 20:05:22 INFO  Exiting server
+2025.03.27 20:13:55 INFO  Started: Metals version 1.5.2 in folders 'C:\ohjelmointi\Scala\scalaapi' for client Visual Studio Code 1.98.2.
+2025.03.27 20:13:56 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:14:05 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:14:05 INFO  Attempting to connect to the build server...
+2025.03.27 20:14:05 INFO  Found a Bloop server running
+2025.03.27 20:14:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:14:06 INFO  Attempting to connect to the build server...
+2025.03.27 20:14:06 INFO  Found a Bloop server running
+2025.03.27 20:14:06 INFO  Attempting to connect to the build server...
+2025.03.27 20:14:06 INFO  Found a Bloop server running
+2025.03.27 20:14:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:14:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:14:06 INFO  time: Connected to build server in 1.55s
+2025.03.27 20:14:06 INFO  Connected to Build server: Bloop v2.0.9
+2025.03.27 20:14:06 INFO  time: Imported build in 0.23s
+2025.03.27 20:14:14 INFO  Shutting down server
+2025.03.27 20:14:14 INFO  shutting down Metals
+2025.03.27 20:14:14 INFO  Shut down connection with build server.
+2025.03.27 20:14:14 INFO  Shut down connection with build server.
+2025.03.27 20:14:14 INFO  Shut down connection with build server.
+2025.03.27 20:33:05 INFO  Started: Metals version 1.5.2 in folders 'C:\ohjelmointi\Scala\scalaapi' for client Visual Studio Code 1.98.2.
+2025.03.27 20:33:06 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:09 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:09 INFO  Attempting to connect to the build server...
+2025.03.27 20:33:09 INFO  Found a Bloop server running
+2025.03.27 20:33:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:33:10 INFO  Attempting to connect to the build server...
+2025.03.27 20:33:10 INFO  Found a Bloop server running
+2025.03.27 20:33:10 INFO  Attempting to connect to the build server...
+2025.03.27 20:33:10 INFO  Found a Bloop server running
+2025.03.27 20:33:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:33:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:33:11 INFO  time: Connected to build server in 2.62s
+2025.03.27 20:33:11 INFO  Connected to Build server: Bloop v2.0.9
+2025.03.27 20:33:11 INFO  time: Imported build in 0.24s
+2025.03.27 20:33:22 INFO  Started: Metals version 1.5.2 in folders 'C:\ohjelmointi\Scala\scalaapi' for client Visual Studio Code 1.98.2.
+2025.03.27 20:33:26 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:28 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:28 INFO  Attempting to connect to the build server...
+2025.03.27 20:33:28 INFO  Found a Bloop server running
+2025.03.27 20:33:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:33:29 INFO  Attempting to connect to the build server...
+2025.03.27 20:33:29 INFO  Found a Bloop server running
+2025.03.27 20:33:29 INFO  Attempting to connect to the build server...
+2025.03.27 20:33:29 INFO  Found a Bloop server running
+2025.03.27 20:33:38 INFO  Started: Metals version 1.5.2 in folders 'C:\ohjelmointi\Scala\scalaapi' for client Visual Studio Code 1.98.2.
+2025.03.27 20:33:42 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Mar 27, 2025 8:33:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Mar 27, 2025 8:33:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2025.03.27 20:33:44 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:44 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:44 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:44 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:44 INFO  Attempting to connect to the build server...
+Mar 27, 2025 8:33:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.03.27 20:33:44 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:44 WARN  no build target for: C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala
+2025.03.27 20:33:44 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\controllers\EmployeeController.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:33:44 INFO  Found a Bloop server running
+2025.03.27 20:33:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:33:45 INFO  Attempting to connect to the build server...
+2025.03.27 20:33:45 INFO  Found a Bloop server running
+2025.03.27 20:33:45 INFO  Attempting to connect to the build server...
+2025.03.27 20:33:45 INFO  Found a Bloop server running
+2025.03.27 20:33:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:33:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:33:46 INFO  time: Connected to build server in 1.58s
+2025.03.27 20:33:46 INFO  Connected to Build server: Bloop v2.0.9
+2025.03.27 20:33:46 INFO  time: Imported build in 0.25s
+2025.03.27 20:33:48 INFO  Shutting down server
+2025.03.27 20:33:48 INFO  shutting down Metals
+2025.03.27 20:33:49 INFO  Shut down connection with build server.
+2025.03.27 20:33:49 INFO  Shut down connection with build server.
+2025.03.27 20:33:49 INFO  Shut down connection with build server.
+2025.03.27 20:44:48 INFO  Started: Metals version 1.5.2 in folders 'C:\ohjelmointi\Scala\scalaapi' for client Visual Studio Code 1.98.2.
+2025.03.27 20:44:49 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\models\EmployeeModel.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:44:50 INFO  no build target found for C:\ohjelmointi\Scala\scalaapi\app\models\EmployeeModel.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.03.27 20:44:51 INFO  Attempting to connect to the build server...
+2025.03.27 20:44:51 INFO  Found a Bloop server running
+2025.03.27 20:44:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:44:51 INFO  Attempting to connect to the build server...
+2025.03.27 20:44:51 INFO  Found a Bloop server running
+2025.03.27 20:44:51 INFO  Attempting to connect to the build server...
+2025.03.27 20:44:51 INFO  Found a Bloop server running
+2025.03.27 20:44:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:44:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\ohjelmointi\Scala\scalaapi\project\project\.metals\bsp.trace.json or C:\Users\Vres\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.03.27 20:44:52 INFO  time: Connected to build server in 1.71s
+2025.03.27 20:44:52 INFO  Connected to Build server: Bloop v2.0.9
+2025.03.27 20:44:52 INFO  time: Imported build in 0.2s
+2025.03.27 20:44:59 INFO  Shutting down server
+2025.03.27 20:44:59 INFO  shutting down Metals
+2025.03.27 20:44:59 INFO  Shut down connection with build server.
+2025.03.27 20:44:59 INFO  Shut down connection with build server.
+2025.03.27 20:44:59 INFO  Shut down connection with build server.

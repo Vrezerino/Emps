@@ -1,0 +1,16 @@
+@(employees: Seq[EmployeeModel])
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Employees</title>
+</head>
+<body>
+  <h1>All Employees</h1>
+  <ul>
+    @for(employee <- employees) {
+      <li>@employee.name - @employee.position</li>
+    }
+  </ul>
+</body>
+</html>
