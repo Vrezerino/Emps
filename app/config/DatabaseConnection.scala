@@ -15,7 +15,7 @@ object DatabaseConnection {
   connection match {
     case Success(conn) =>
       println("Database connection established successfully.")
-      // conn object can now be passed DAO class
+      // conn object can now be passed to DAO class
     case Failure(exception) =>
       println(s"Failed to connect to the database: ${exception.getMessage}")
   }

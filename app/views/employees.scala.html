@@ -1,4 +1,7 @@
-@(employees: Seq[EmployeeModel])
+@import play.filters.csrf.CSRF
+@import helper._
+
+@(employees: Seq[models.EmployeeModel], employeeForm: Form[models.EmployeeModel])(implicit messages: Messages)
 
 @main("All Employees") {
   <h1>All Employees</h1>
@@ -7,4 +10,20 @@
       <li>@employee.name - @employee.position</li>
     }
   </ul>
+
+  @helper.form(action = routes.EmployeeController.submitInsertForm()) {
+    @helper.CSRF.formField
+    @helper.inputText(employeeForm("name"), '_label -> "Name", '_help -> "Employee's full name")
+    @helper.inputText(employeeForm("position"), '_label -> "Position", '_help -> "Employee's job position")
+
+    <div>
+      <button type="submit">Insert Employee</button>
+    </div>
+
+    @employeeForm.errors.map { error =>
+      <p style="color: red;">Error: @error.message</p>
+    }
+  }
+
+  <a href="/">Back to index</a>
 }
