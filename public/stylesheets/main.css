@@ -21,6 +21,30 @@ label {
 
 table {
   text-align: left;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid rgba(12, 67, 112, 0.25);
+  padding: 0.2em;
+}
+
+table tr:first-child th {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
 }
 
 #employees {
