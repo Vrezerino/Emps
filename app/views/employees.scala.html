@@ -1,19 +1,20 @@
 @import play.filters.csrf.CSRF
 @import helper._
 
-@(employees: Seq[models.EmployeeModel], employeeForm: Form[models.EmployeeModel])(implicit messages: Messages)
+@(employees: Seq[models.EmployeeModel], employeeForm: Form[models.EmployeeModel])(implicit request: RequestHeader, messages: Messages)
 
 @main("All Employees") {
   <h1>All Employees</h1>
   <ul>
     @for(employee <- employees) {
-      <li>@employee.name - @employee.position</li>
+      <li>@employee.first_name @employee.last_name - @employee.position</li>
     }
   </ul>
 
   @helper.form(action = routes.EmployeeController.submitInsertForm()) {
     @helper.CSRF.formField
-    @helper.inputText(employeeForm("name"), '_label -> "Name", '_help -> "Employee's full name")
+    @helper.inputText(employeeForm("first_name"), '_label -> "First name", '_help -> "Employee's first name")
+    @helper.inputText(employeeForm("last_name"), '_label -> "Last name", '_help -> "Employee's last name")
     @helper.inputText(employeeForm("position"), '_label -> "Position", '_help -> "Employee's job position")
 
     <div>

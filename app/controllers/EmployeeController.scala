@@ -20,12 +20,13 @@ class EmployeeController @Inject() (
 
   val employeeForm = Form(
     mapping(
-      "name" -> nonEmptyText,
+      "first_name" -> nonEmptyText,
+      "last_name" -> nonEmptyText,
       "position" -> nonEmptyText
     )(
-      (name, position) => EmployeeModel(0, name, position)
+      (first_name, last_name, position) => EmployeeModel(0, first_name, last_name, position)
     )(
-      employee => Some((employee.name, employee.position))
+      employee => Some((employee.first_name, employee.last_name, employee.position))
     )
   )
 
@@ -49,7 +50,7 @@ class EmployeeController @Inject() (
       case Success(conn) =>
         val employeeDAO = new EmployeeDAO(conn)
         employeeDAO.findEmployeeById(id).map {
-          case Some(emp) => Ok(s"Employee found: ID=${emp.id}, Name=${emp.name}, Position=${emp.position}")
+          case Some(emp) => Ok(s"Employee found: ID=${emp.id}, First name=${emp.first_name}, Lastname=${emp.last_name}, Position=${emp.position}")
           case None      => NotFound(s"No employee found with ID $id")
         }.recover {
           case ex: Exception => BadRequest(s"Error: ${ex.getMessage}")
