@@ -15,9 +15,9 @@
 
   @helper.form(action = routes.EmployeeController.submitInsertForm()) {
     @helper.CSRF.formField
-    @helper.inputText(employeeForm("first_name"), '_label -> "First name", '_showConstraints -> false)
-    @helper.inputText(employeeForm("last_name"), '_label -> "Last name", '_showConstraints -> false)
-    @helper.inputText(employeeForm("position"), '_label -> "Position", '_showConstraints -> false)
+    @helper.inputText(employeeForm("first_name"), Symbol("_label") -> "First name", Symbol("_showConstraints") -> false)
+    @helper.inputText(employeeForm("last_name"), Symbol("_label") -> "Last name", Symbol("_showConstraints") -> false)
+    @helper.inputText(employeeForm("position"), Symbol("_label") -> "Position", Symbol("_showConstraints") -> false)
 
     <div>
       <button type="submit">Add Employee</button>
