@@ -82,7 +82,7 @@ class EmployeeController @Inject() (
         case Success(conn) =>
           val employeeDAO = new EmployeeDAO(conn)
           employeeDAO.insertEmployee(employeeData).map { id =>
-            Created(s"Employee inserted with ID: $id")
+            Redirect(routes.EmployeeController.listEmployees())
           }.recover {
             case ex: Exception => InternalServerError(s"Database error: ${ex.getMessage}")
           }
