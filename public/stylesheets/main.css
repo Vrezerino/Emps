@@ -18,3 +18,11 @@ form {
 label {
   font-size: small;
 }
+
+table {
+  text-align: left;
+}
+
+#employees {
+  min-width: 600px;
+}
