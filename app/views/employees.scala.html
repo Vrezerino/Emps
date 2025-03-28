@@ -5,20 +5,22 @@
 
 @main("All Employees") {
   <h1>All Employees</h1>
-  <ul>
+  <table>
     @for(employee <- employees) {
-      <li>@employee.first_name @employee.last_name - @employee.position</li>
+      <tr><td>@employee.first_name @employee.last_name, @employee.position</td></tr>
     }
-  </ul>
+  </table>
+
+  <h2>Add New Employee</h2>
 
   @helper.form(action = routes.EmployeeController.submitInsertForm()) {
     @helper.CSRF.formField
-    @helper.inputText(employeeForm("first_name"), '_label -> "First name", '_help -> "Employee's first name")
-    @helper.inputText(employeeForm("last_name"), '_label -> "Last name", '_help -> "Employee's last name")
-    @helper.inputText(employeeForm("position"), '_label -> "Position", '_help -> "Employee's job position")
+    @helper.inputText(employeeForm("first_name"), '_label -> "First name", '_showConstraints -> false)
+    @helper.inputText(employeeForm("last_name"), '_label -> "Last name", '_showConstraints -> false)
+    @helper.inputText(employeeForm("position"), '_label -> "Position", '_showConstraints -> false)
 
     <div>
-      <button type="submit">Insert Employee</button>
+      <button type="submit">Add Employee</button>
     </div>
 
     @employeeForm.errors.map { error =>
