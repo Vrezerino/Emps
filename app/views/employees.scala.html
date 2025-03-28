@@ -7,7 +7,7 @@
   <h1>All Employees</h1>
   <table>
     @for(employee <- employees) {
-      <tr><td>@employee.first_name @employee.last_name, @employee.position</td></tr>
+      <tr><td>@employee.first_name @employee.last_name, @employee.position, @employee.hire_date, @employee.end_date</td></tr>
     }
   </table>
 
@@ -18,6 +18,14 @@
     @helper.inputText(employeeForm("first_name"), Symbol("_label") -> "First name", Symbol("_showConstraints") -> false)
     @helper.inputText(employeeForm("last_name"), Symbol("_label") -> "Last name", Symbol("_showConstraints") -> false)
     @helper.inputText(employeeForm("position"), Symbol("_label") -> "Position", Symbol("_showConstraints") -> false)
+
+    @helper.input(employeeForm("hire_date")) { (id, name, value, args) =>
+      <input type="date" name="@name" id="@id" value="@value" @toHtmlArgs(args)>
+    }
+
+    @helper.input(employeeForm("end_date")) { (id, name, value, args) =>
+      <input type="date" name="@name" id="@id" value="@value" @toHtmlArgs(args)>
+    }
 
     <div>
       <button type="submit">Add Employee</button>

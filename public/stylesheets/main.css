@@ -8,3 +8,13 @@ html {
 a {
   color: rgb(12, 67, 112);
 }
+
+form {
+  padding: 0.5em;
+  background-color: aliceblue;
+  max-width: max-content;
+}
+
+label {
+  font-size: small;
+}

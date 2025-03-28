@@ -3,6 +3,8 @@ package controllers
 import javax.inject._
 import play.api.mvc._
 import play.api.data._
+import java.time.LocalDate
+import play.api.data.format.Formats._
 import play.api.data.Forms._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
@@ -18,16 +20,18 @@ class EmployeeController @Inject() (
 )(implicit ec: ExecutionContext)
     extends BaseController with I18nSupport {
 
-  val employeeForm = Form(
-    mapping(
-      "first_name" -> nonEmptyText,
-      "last_name" -> nonEmptyText,
-      "position" -> nonEmptyText
-    )(
-      (first_name, last_name, position) => EmployeeModel(0, first_name, last_name, position)
-    )(
-      employee => Some((employee.first_name, employee.last_name, employee.position))
-    )
+  val employeeForm: Form[EmployeeModel] = Form(
+  mapping(
+    "first_name" -> nonEmptyText,
+    "last_name" -> nonEmptyText,
+    "position" -> nonEmptyText,
+    "hire_date" -> localDate("yyyy-MM-dd"),
+    "end_date" -> optional(localDate("yyyy-MM-dd"))
+    ) { case (first_name, last_name, position, hire_date, end_date) =>
+      EmployeeModel(0, first_name, last_name, position, hire_date, end_date)
+    } { employee =>
+      Some((employee.first_name, employee.last_name, employee.position, employee.hire_date, employee.end_date))
+    }
   )
 
   def listEmployees(): Action[AnyContent] = Action.async { implicit request =>
