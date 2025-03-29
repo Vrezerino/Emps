@@ -1,7 +1,7 @@
 @import play.filters.csrf.CSRF
 @import helper._
 
-@(employees: Seq[models.EmployeeModel], employeeForm: Form[models.EmployeeModel])(implicit request: RequestHeader, messages: Messages)
+@(employees: Seq[models.EmployeeModel], employeeForm: Form[models.EmployeeModel], elapsedTime: Double)(implicit request: RequestHeader, messages: Messages)
 
 @main("All Employees") {
   <h1>Employee Management - All Employees</h1>
@@ -24,9 +24,11 @@
     }
   </table>
 
+  <p id="retrieval-time">Retrieved in @("%.4f".format(elapsedTime)) seconds.</p>
+
   <h2>Add New Employee</h2>
 
-  @helper.form(action = routes.EmployeeController.submitInsertForm()) {
+  @helper.form(action = routes.EmployeeController.submitInsertForm(), 'id -> "employee-form") {
     @helper.CSRF.formField
     @helper.inputText(employeeForm("first_name"), Symbol("_label") -> "First name", Symbol("_showConstraints") -> false)
     @helper.inputText(employeeForm("last_name"), Symbol("_label") -> "Last name", Symbol("_showConstraints") -> false)
@@ -40,14 +42,15 @@
       <input type="date" name="@name" id="@id" value="@value" @toHtmlArgs(args)>
     }
 
-    <div>
-      <button type="submit">Add Employee</button>
+    <div class="button-container">
+      <button id="submit-employee-btn" type="submit">Add Employee</button>
     </div>
 
     @employeeForm.errors.map { error =>
       <p style="color: red;">Error: @error.message</p>
     }
   }
-
-  <a href="/">Back to index</a>
+  <footer>
+    <a href="/">Back to index</a>
+  </footer>
 }

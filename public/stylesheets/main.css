@@ -10,9 +10,27 @@ a {
 }
 
 form {
+  border-radius: 0.5em;
   padding: 0.5em;
   background-color: aliceblue;
   max-width: max-content;
+}
+
+#employee-form dl, dd {
+  margin: 0.2em;
+  padding: 0;
+}
+
+#submit-employee-btn {
+  margin: 2em 0 0 0;
+  background-color: rgb(28, 28, 44);
+  color: aliceblue;
+  padding: 0.3em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center
 }
 
 label {
@@ -49,4 +67,12 @@ table tr th:last-child {
 
 #employees {
   min-width: 600px;
+}
+
+#retrieval-time {
+  font-size: small;
+}
+
+footer {
+  margin: 2em 0;
 }

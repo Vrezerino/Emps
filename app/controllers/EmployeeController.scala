@@ -47,9 +47,13 @@ class EmployeeController @Inject() (
     DatabaseConnection.connection match {
       case Success(conn) =>
         val employeeDAO = new EmployeeDAO(conn)
+        val startTime = System.nanoTime()
+
         employeeDAO.getAllEmployees
           .map { employees =>
-            Ok(views.html.employees(employees, employeeForm))
+            val endTime = System.nanoTime()
+            val elapsedSeconds = (endTime - startTime) / 1e9
+            Ok(views.html.employees(employees, employeeForm, elapsedSeconds))
           }
           .recover { case ex: Exception =>
             BadRequest(s"Error: ${ex.getMessage}")
@@ -89,9 +93,13 @@ class EmployeeController @Inject() (
           DatabaseConnection.connection match {
             case Success(conn) =>
               val employeeDAO = new EmployeeDAO(conn)
+              val startTime = System.nanoTime()
+
               employeeDAO.getAllEmployees
                 .map { employees =>
-                  BadRequest(views.html.employees(employees, formWithErrors))
+                  val endTime = System.nanoTime()
+                  val elapsedSeconds = (endTime - startTime) / 1e9
+                  BadRequest(views.html.employees(employees, formWithErrors, elapsedSeconds))
                 }
                 .recover { case ex: Exception =>
                   InternalServerError(s"Database error: ${ex.getMessage}")
