@@ -1,1 +1,1 @@
-![alt text](https://github.com/Vrezerino/Emps/blob/main/public/images/Screenshot-2025-03-29-044332.png?raw=true)
+![alt text](https://github.com/Vrezerino/Emps/blob/master/public/images/Screenshot-2025-03-29-044332.png?raw=true)
