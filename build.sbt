@@ -1,4 +1,4 @@
-name := """ScalaAPI"""
+name := """Emps"""
 organization := "ppark"
 
 version := "1.0-SNAPSHOT"

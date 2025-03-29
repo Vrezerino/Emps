@@ -10,7 +10,7 @@ class EmployeeDAO(connection: Connection)(implicit ec: ExecutionContext) {
     val query = "SELECT * FROM employees"
     val statement = connection.createStatement()
     val resultSet = statement.executeQuery(query)
-    
+
     Iterator
       .continually((resultSet, resultSet.next()))
       .takeWhile(_._2)
@@ -32,9 +32,11 @@ class EmployeeDAO(connection: Connection)(implicit ec: ExecutionContext) {
     val statement = connection.prepareStatement(query)
     statement.setInt(1, id)
     val rs = statement.executeQuery()
-    
+
     if (rs.next()) {
-      Some(EmployeeModel(rs.getInt("id"),
+      Some(
+        EmployeeModel(
+          rs.getInt("id"),
           rs.getString("first_name"),
           rs.getString("last_name"),
           rs.getString("position"),
@@ -48,8 +50,12 @@ class EmployeeDAO(connection: Connection)(implicit ec: ExecutionContext) {
   }
 
   def insertEmployee(employee: EmployeeModel): Future[Int] = Future {
-    val query = "INSERT INTO employees (first_name, last_name, position, hire_date, end_date) VALUES (?, ?, ?, ?, ?) RETURNING id"
-    val stmt = connection.prepareStatement(query, java.sql.Statement.RETURN_GENERATED_KEYS)
+    val query =
+      "INSERT INTO employees (first_name, last_name, position, hire_date, end_date) VALUES (?, ?, ?, ?, ?) RETURNING id"
+    val stmt = connection.prepareStatement(
+      query,
+      java.sql.Statement.RETURN_GENERATED_KEYS
+    )
     stmt.setString(1, employee.first_name)
     stmt.setString(2, employee.last_name)
     stmt.setString(3, employee.position)

@@ -23,6 +23,8 @@
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-pekko-http-server_2.13\\3.0.7\\play-pekko-http-server_2.13-3.0.7.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-filters-helpers_2.13\\3.0.7\\play-filters-helpers_2.13-3.0.7.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-guice_2.13\\3.0.7\\play-guice_2.13-3.0.7.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.7.5\\postgresql-42.7.5.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-json_2.13\\2.9.2\\play-json_2.13-2.9.2.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\2.2.0\\scala-xml_2.13-2.2.0.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play_2.13\\3.0.7\\play_2.13-3.0.7.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.5.17\\logback-classic-1.5.17.jar",
@@ -30,6 +32,14 @@
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-http-core_2.13\\1.0.1\\pekko-http-core_2.13-1.0.1.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\inject\\guice\\6.0.0\\guice-6.0.0.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\inject\\extensions\\guice-assistedinject\\6.0.0\\guice-assistedinject-6.0.0.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.48.3\\checker-qual-3.48.3.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-functional_2.13\\2.9.2\\play-functional_2.13-2.9.2.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.16\\scala-reflect-2.13.16.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.14.3\\jackson-core-2.14.3.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.14.3\\jackson-annotations-2.14.3.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.14.3\\jackson-datatype-jdk8-2.14.3.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.14.3\\jackson-datatype-jsr310-2.14.3.jar",
+            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.14.3\\jackson-databind-2.14.3.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-build-link\\3.0.7\\play-build-link-3.0.7.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-configuration_2.13\\3.0.7\\play-configuration_2.13-3.0.7.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\2.0.17\\slf4j-api-2.0.17.jar",
@@ -39,11 +49,6 @@
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-actor-typed_2.13\\1.0.3\\pekko-actor-typed_2.13-1.0.3.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-slf4j_2.13\\1.0.3\\pekko-slf4j_2.13-1.0.3.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-serialization-jackson_2.13\\1.0.3\\pekko-serialization-jackson_2.13-1.0.3.jar",
-            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.14.3\\jackson-core-2.14.3.jar",
-            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.14.3\\jackson-annotations-2.14.3.jar",
-            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.14.3\\jackson-datatype-jdk8-2.14.3.jar",
-            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.14.3\\jackson-datatype-jsr310-2.14.3.jar",
-            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.14.3\\jackson-databind-2.14.3.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\dataformat\\jackson-dataformat-cbor\\2.14.3\\jackson-dataformat-cbor-2.14.3.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-parameter-names\\2.14.3\\jackson-module-parameter-names-2.14.3.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-scala_2.13\\2.14.3\\jackson-module-scala_2.13-2.14.3.jar",
@@ -68,11 +73,9 @@
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\lz4\\lz4-java\\1.8.0\\lz4-java-1.8.0.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-functional_2.13\\3.0.4\\play-functional_2.13-3.0.4.jar",
-            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.16\\scala-reflect-2.13.16.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\guava\\failureaccess\\1.0.1\\failureaccess-1.0.1.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\guava\\listenablefuture\\9999.0-empty-to-avoid-conflict-with-guava\\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2.jar",
-            "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.37.0\\checker-qual-3.37.0.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\j2objc\\j2objc-annotations\\2.8\\j2objc-annotations-2.8.jar",
             "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-protobuf-v3_2.13\\1.0.3\\pekko-protobuf-v3_2.13-1.0.3.jar"
         ],
@@ -180,7 +183,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files\\Java\\jdk-19",
+                "home": "C:\\Users\\Vres\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\17",
                 "options": [
                     "-Duser.dir=C:\\ohjelmointi\\Scala\\scalaapi"
                 ]
@@ -189,7 +192,7 @@
                 
             ],
             "runtimeConfig": {
-                "home": "C:\\Program Files\\Java\\jdk-19",
+                "home": "C:\\Users\\Vres\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\17",
                 "options": [
                     "-Duser.dir=C:\\ohjelmointi\\Scala\\scalaapi"
                 ]
@@ -203,6 +206,8 @@
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-pekko-http-server_2.13\\3.0.7\\play-pekko-http-server_2.13-3.0.7.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-filters-helpers_2.13\\3.0.7\\play-filters-helpers_2.13-3.0.7.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-guice_2.13\\3.0.7\\play-guice_2.13-3.0.7.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.7.5\\postgresql-42.7.5.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-json_2.13\\2.9.2\\play-json_2.13-2.9.2.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.13\\2.2.0\\scala-xml_2.13-2.2.0.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play_2.13\\3.0.7\\play_2.13-3.0.7.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.5.17\\logback-classic-1.5.17.jar",
@@ -210,6 +215,14 @@
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-http-core_2.13\\1.0.1\\pekko-http-core_2.13-1.0.1.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\inject\\guice\\6.0.0\\guice-6.0.0.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\inject\\extensions\\guice-assistedinject\\6.0.0\\guice-assistedinject-6.0.0.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.48.3\\checker-qual-3.48.3.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-functional_2.13\\2.9.2\\play-functional_2.13-2.9.2.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.16\\scala-reflect-2.13.16.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.14.3\\jackson-core-2.14.3.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.14.3\\jackson-annotations-2.14.3.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.14.3\\jackson-datatype-jdk8-2.14.3.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.14.3\\jackson-datatype-jsr310-2.14.3.jar",
+                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.14.3\\jackson-databind-2.14.3.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-build-link\\3.0.7\\play-build-link-3.0.7.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-configuration_2.13\\3.0.7\\play-configuration_2.13-3.0.7.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\2.0.17\\slf4j-api-2.0.17.jar",
@@ -219,11 +232,6 @@
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-actor-typed_2.13\\1.0.3\\pekko-actor-typed_2.13-1.0.3.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-slf4j_2.13\\1.0.3\\pekko-slf4j_2.13-1.0.3.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-serialization-jackson_2.13\\1.0.3\\pekko-serialization-jackson_2.13-1.0.3.jar",
-                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.14.3\\jackson-core-2.14.3.jar",
-                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.14.3\\jackson-annotations-2.14.3.jar",
-                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.14.3\\jackson-datatype-jdk8-2.14.3.jar",
-                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.14.3\\jackson-datatype-jsr310-2.14.3.jar",
-                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.14.3\\jackson-databind-2.14.3.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\dataformat\\jackson-dataformat-cbor\\2.14.3\\jackson-dataformat-cbor-2.14.3.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-parameter-names\\2.14.3\\jackson-module-parameter-names-2.14.3.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\module\\jackson-module-scala_2.13\\2.14.3\\jackson-module-scala_2.13-2.14.3.jar",
@@ -248,11 +256,9 @@
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\lz4\\lz4-java\\1.8.0\\lz4-java-1.8.0.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\playframework\\play-functional_2.13\\3.0.4\\play-functional_2.13-3.0.4.jar",
-                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.16\\scala-reflect-2.13.16.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\guava\\failureaccess\\1.0.1\\failureaccess-1.0.1.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\guava\\listenablefuture\\9999.0-empty-to-avoid-conflict-with-guava\\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2.jar",
-                "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.37.0\\checker-qual-3.37.0.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\j2objc\\j2objc-annotations\\2.8\\j2objc-annotations-2.8.jar",
                 "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-protobuf-v3_2.13\\1.0.3\\pekko-protobuf-v3_2.13-1.0.3.jar"
             ]
@@ -379,6 +385,40 @@
                     ]
                 },
                 {
+                    "organization": "org.postgresql",
+                    "name": "postgresql",
+                    "version": "42.7.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "postgresql",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.7.5\\postgresql-42.7.5.jar"
+                        },
+                        {
+                            "name": "postgresql",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.7.5\\postgresql-42.7.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-json_2.13",
+                    "version": "2.9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-json_2.13",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-json_2.13\\2.9.2\\play-json_2.13-2.9.2.jar"
+                        },
+                        {
+                            "name": "play-json_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-json_2.13\\2.9.2\\play-json_2.13-2.9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scala-lang.modules",
                     "name": "scala-xml_2.13",
                     "version": "2.2.0",
@@ -494,6 +534,142 @@
                             "name": "guice-assistedinject",
                             "classifier": "sources",
                             "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\inject\\extensions\\guice-assistedinject\\6.0.0\\guice-assistedinject-6.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.48.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.48.3\\checker-qual-3.48.3.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.48.3\\checker-qual-3.48.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.play",
+                    "name": "play-functional_2.13",
+                    "version": "2.9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "play-functional_2.13",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-functional_2.13\\2.9.2\\play-functional_2.13-2.9.2.jar"
+                        },
+                        {
+                            "name": "play-functional_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-functional_2.13\\2.9.2\\play-functional_2.13-2.9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.16\\scala-reflect-2.13.16.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.16\\scala-reflect-2.13.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.14.3\\jackson-core-2.14.3.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.14.3\\jackson-core-2.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.14.3\\jackson-annotations-2.14.3.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.14.3\\jackson-annotations-2.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jdk8",
+                    "version": "2.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.14.3\\jackson-datatype-jdk8-2.14.3.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.14.3\\jackson-datatype-jdk8-2.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jsr310",
+                    "version": "2.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.14.3\\jackson-datatype-jsr310-2.14.3.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.14.3\\jackson-datatype-jsr310-2.14.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.14.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.14.3\\jackson-databind-2.14.3.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.14.3\\jackson-databind-2.14.3-sources.jar"
                         }
                     ]
                 },
@@ -647,91 +823,6 @@
                             "name": "pekko-serialization-jackson_2.13",
                             "classifier": "sources",
                             "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\pekko\\pekko-serialization-jackson_2.13\\1.0.3\\pekko-serialization-jackson_2.13-1.0.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.core",
-                    "name": "jackson-core",
-                    "version": "2.14.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jackson-core",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.14.3\\jackson-core-2.14.3.jar"
-                        },
-                        {
-                            "name": "jackson-core",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.14.3\\jackson-core-2.14.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.core",
-                    "name": "jackson-annotations",
-                    "version": "2.14.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jackson-annotations",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.14.3\\jackson-annotations-2.14.3.jar"
-                        },
-                        {
-                            "name": "jackson-annotations",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.14.3\\jackson-annotations-2.14.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.datatype",
-                    "name": "jackson-datatype-jdk8",
-                    "version": "2.14.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jackson-datatype-jdk8",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.14.3\\jackson-datatype-jdk8-2.14.3.jar"
-                        },
-                        {
-                            "name": "jackson-datatype-jdk8",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.14.3\\jackson-datatype-jdk8-2.14.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.datatype",
-                    "name": "jackson-datatype-jsr310",
-                    "version": "2.14.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jackson-datatype-jsr310",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.14.3\\jackson-datatype-jsr310-2.14.3.jar"
-                        },
-                        {
-                            "name": "jackson-datatype-jsr310",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jsr310\\2.14.3\\jackson-datatype-jsr310-2.14.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.core",
-                    "name": "jackson-databind",
-                    "version": "2.14.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jackson-databind",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.14.3\\jackson-databind-2.14.3.jar"
-                        },
-                        {
-                            "name": "jackson-databind",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.14.3\\jackson-databind-2.14.3-sources.jar"
                         }
                     ]
                 },
@@ -1144,23 +1235,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.13.16",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-reflect",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.16\\scala-reflect-2.13.16.jar"
-                        },
-                        {
-                            "name": "scala-reflect",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.16\\scala-reflect-2.13.16-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "com.google.guava",
                     "name": "failureaccess",
                     "version": "1.0.1",
@@ -1203,23 +1277,6 @@
                             "name": "jsr305",
                             "classifier": "sources",
                             "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.checkerframework",
-                    "name": "checker-qual",
-                    "version": "3.37.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "checker-qual",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.37.0\\checker-qual-3.37.0.jar"
-                        },
-                        {
-                            "name": "checker-qual",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\Vres\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.37.0\\checker-qual-3.37.0-sources.jar"
                         }
                     ]
                 },

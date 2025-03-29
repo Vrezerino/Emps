@@ -269,7 +269,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files\\Java\\jdk-21",
+                "home": "C:\\Users\\Vres\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\17",
                 "options": [
                     "-Duser.dir=C:\\ohjelmointi\\Scala\\scalaapi\\project"
                 ]
@@ -278,7 +278,7 @@
                 
             ],
             "runtimeConfig": {
-                "home": "C:\\Program Files\\Java\\jdk-21",
+                "home": "C:\\Users\\Vres\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\17",
                 "options": [
                     "-Duser.dir=C:\\ohjelmointi\\Scala\\scalaapi\\project"
                 ]
